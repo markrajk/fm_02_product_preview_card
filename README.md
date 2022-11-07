@@ -41,6 +41,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [web-apprentice](https://www.web-apprentice.com/)
+- Website - [web-apprentice.com](https://www.web-apprentice.com/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/markrajk)
 
