@@ -10,7 +10,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -42,6 +41,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.web-apprentice.com/)
+- Website - [web-apprentice](https://www.web-apprentice.com/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/markrajk)
 
