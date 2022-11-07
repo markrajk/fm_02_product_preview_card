@@ -1,0 +1,124 @@
+.card {
+    max-width: 54em;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: "preview body";
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+    background-color: $color-white;
+    overflow: hidden;
+
+    @include respond(m) {
+        max-width: 32em;
+        grid-template-areas: "preview"
+        "body";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+    }
+
+    &_preview {
+        flex: 1;
+        &_picture {
+            
+            &_img {
+                display: block;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    &_body {
+        flex: 1;
+        padding: 3em;
+
+
+        @include respond(m) {
+            padding: 2.5em;
+        }
+
+        &_tag {
+            font-size: 1em;
+            text-transform: uppercase;
+            color: $color-grayish-blue;
+            letter-spacing: 4px;
+        }
+
+        &_title {
+            margin: .7em 0 .8em;
+            padding-right: 1em;
+            font-family: $font-display;
+            font-size: 2.7em;
+            letter-spacing: 1px;
+            line-height: 1;
+
+            @include respond(m) {
+                margin: .5em 0;
+                padding-right: 0;
+            }
+        }
+
+        &_text {
+            font-size: 1.4em;
+            color: $color-grayish-blue;
+            letter-spacing: -.5px;
+            line-height: 1.7;
+
+            @include respond(m) {
+                line-height: 1.6;
+            }
+        }
+
+        &_prices {
+            margin: 2em 0 2.5em;
+            display: flex;
+            align-items: center;
+
+
+            @include respond(m) {
+                margin: 1.5em 0;
+            }
+
+            &_new {
+                margin-right: .8em;
+                font-family: $font-display;
+                color: $color-dark-cyan;
+                font-size: 2.6em;
+            }
+            &_old {
+                color: $color-grayish-blue;
+                font-size: 1.1em;
+
+                & span {
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+
+    .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: $color-dark-cyan;
+        color: $color-white;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 1.1em 0;
+        border-radius: 6px;
+        letter-spacing: -.3px;
+        transition: opacity 150ms ease-in-out;
+
+        &:hover,
+        &:focus {
+            opacity: .8;
+            cursor: pointer;
+        }
+
+        & svg {
+            margin-right: .7em;
+        }
+    }
+}
