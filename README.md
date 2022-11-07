@@ -42,5 +42,5 @@ Users should be able to:
 ## Author
 
 - Website - [web-apprentice.com](https://www.web-apprentice.com/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/markrajk)
+- Frontend Mentor - [@markrajk](https://www.frontendmentor.io/profile/markrajk)
 
